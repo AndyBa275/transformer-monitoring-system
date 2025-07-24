@@ -296,7 +296,7 @@ def main():
     # Data loading section
     st.sidebar.subheader("📊 Data Source")
     data_path = st.sidebar.text_input("Data File Path:", 
-                                    value="sample_data.csv"
+                                    value="sample_data.csv")
     
     if st.sidebar.button("🔄 Load Data"):
         with st.spinner("Loading transformer data..."):
